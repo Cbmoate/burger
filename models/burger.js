@@ -1,3 +1,7 @@
-var orm = import('./config/orm.js');
+var orm = require('./config/orm.js');
 
-export
+var things ={
+  
+};
+
+module.export = things;
