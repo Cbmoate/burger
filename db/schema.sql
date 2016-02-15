@@ -6,7 +6,7 @@ USE burgers_db;
 
 CREATE TABLE about_a_burger(
 id INT AUTO_INCREMEMT PRIMARY KEY,
-burger_name VARCHAR(255),
+burger_name varchar(255),
 devoured BOOLEAN,
 date TIMESTAMP
 );
