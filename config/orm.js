@@ -17,7 +17,7 @@ var orm = {
     });
   },
 
-  devoureBurger: function(tableInput, cb){
+  devourBurger: function(tableInput, cb){
     var s = "UPDATE" + tableInput + "SET devoured = TRUE WHERE id =?";
     connection.query(s, function(err, result){
       if (err) throw err;
